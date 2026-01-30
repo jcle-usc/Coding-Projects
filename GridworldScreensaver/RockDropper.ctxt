@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RockDropper
+comment1.params=rockDropperColor
+comment1.target=RockDropper(java.awt.Color)
+comment2.params=loc
+comment2.target=void\ makeMove(info.gridworld.grid.Location)
+numComments=3
