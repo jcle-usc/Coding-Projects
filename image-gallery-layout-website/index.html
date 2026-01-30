@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Le | Interests Page - K-Pop</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        #header {
+            background-image: url('img/kpop.png');
+        }
+
+        #main {
+            width: 600px;
+        }
+
+        #container {
+            display: flex;
+            align-items: stretch;
+            /* ensures equal height */
+            justify-content: center;
+            /* margin: 10px auto; */
+            border: 1px solid #000;
+        }
+
+        #sidebar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px 20px 5px 20px;
+            width: 200px;
+            /* height: auto; */
+            background-color: lightgrey;
+            border-right: 1px solid #000;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .image {
+            /* images in main */
+            /* flex-wrap: wrap; */
+            width: 250px;
+            height: auto;
+            border: 1px solid black;
+        }
+
+        .imagelist {
+            /* images in main list */
+            width: 225px;
+            height: auto;
+            border: 1px solid black;
+        }
+
+        .imagesidebar {
+            /* images in the side bar */
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            /* makes sure images fits while not distorting it */
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        .imagesidebar+p {
+            visibility: hidden;
+        }
+
+        .imagesidebar:hover+p {
+            visibility: visible;
+        }
+
+        #group {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        #concert {
+            float: left;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        #fandom {
+            float: right;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>K-Pop</h1>
+    </div>
+
+    <div id="navbar">
+        <a href="">Home</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <div id="container">
+        <div id="sidebar">
+            <img src="img/blackpinklightstick.png" alt="BLACKPINKlighstick" class="imagesidebar">
+            <p class="text">BLACKPINK Light Stick</p>
+            <img src="img/twicelightstick.png" alt="TWICElightstick" class="imagesidebar">
+            <p class="text">TWICE Light Stick</p>
+            <img src="img/btslightstick.png" alt="BTSlighstick" class="imagesidebar">
+            <p class="text">BTS Light Stick</p>
+        </div>
+        <div id="main">
+            <h2>Groups</h2>
+            <p>
+                <img src="img/enhypen.png" alt="ENHYPEN" id="group" class="image">
+                K-pop is dominated by major entertainment companies like HYBE, JYP Entertainment, YG Entertainment, and
+                SM
+                Entertainment, each known for producing globally successful idol groups. HYBE manages BTS, ENHYPEN, and
+                TXT,
+                while JYP is behind groups like TWICE, Stray Kids, and ITZY. YG Entertainment is home to BLACKPINK and
+                TREASURE, known for their bold visuals and hip-hop style. Each company has its own distinct training
+                system
+                and musical identity, shaping the artists they debut.
+            </p>
+            <p>
+                These companies not only focus on music but also on visuals, storytelling, and social media strategy to
+                market their groups internationally. Newer agencies like ADOR (under HYBE, managing NewJeans) and
+                Starship
+                Entertainment (home to IVE) are also gaining traction. With each debut, K-pop companies aim to create
+                unique
+                concepts, helping groups stand out in a highly competitive industry.
+            </p>
+            <p><strong>Most Famous K-Pop Groups (Sep 2025):</strong></p>
+            <ol>
+                <li>
+                    <p>BLACKPINK: 32.0M monthly listeners</p>
+                    <img src="img/blackpink.png" alt="BLACKPINK" class="imagelist">
+                </li>
+                <li>
+                    <p>TWICE: 26.6M monthly listeners</p>
+                    <img src="img/twice.png" alt="TWICE" class="imagelist">
+                </li>
+                <li>
+                    <p>BTS: 26.0M monthly listeners</p>
+                    <img src="img/bts.png" alt="BTS" class="imagelist">
+                </li>
+            </ol>
+
+            <h2>Concerts</h2>
+            <p>
+                K-pop concerts are famous for their high energy, elaborate choreography, and spectacular stage
+                production.
+                From massive LED screens and synchronized dance formations to pyrotechnics and costume changes, K-pop
+                concerts are theatrical experiences. Groups like BTS, BLACKPINK, and TWICE fill stadiums worldwide, with
+                fans traveling long distances to see them live.
+            </p>
+            <p>
+                <img src="img/concert.png" alt="concert" id="concert" class="image">
+                Many K-pop artists also hold world tours, bringing Korean music to fans across Asia, North America,
+                Europe,
+                and beyond. Virtual concerts have also become more popular, especially during the pandemic, allowing
+                fans
+                from all over the world to tune in at once. The sense of connection between artists and their fans
+                during
+                these shows is a huge part of what makes K-pop concerts special.
+            </p>
+            <p>
+                <strong>Purchase Tickets Here:</strong>
+                <a href="http://ticketmaster.com" target="_blank">Ticketmaster</a>
+                <!-- hyperlink -->
+            </p>
+
+            <h2>Fandom Culture</h2>
+            <p>
+                K-pop fandoms are incredibly organized, passionate, and global. Each group has an official fandom name
+                and
+                color—for example, BTS's ARMY, BLACKPINK's BLINKs, and Stray Kids’ STAY. These fandoms support their
+                idols
+                by streaming music, organizing fan events, and even crowdfunding advertisements for birthdays and
+                anniversaries.
+                <img src="img/fandom.png" alt="fandom" id="fandom" class="image">
+            </p>
+            <p>
+                Fan culture also includes creating fan chants, attending fan sign events, and buying albums and merch in
+                bulk to support their favorite group’s chart rankings. Social media plays a huge role, as fans use
+                platforms
+                like Twitter, TikTok, and Weverse to stay connected with idols and each other. K-pop fandoms have even
+                been
+                known to participate in charitable causes and activism, showing their collective power beyond music.
+            </p>
+        </div>
+    </div>
+
+    <div id="footer">
+        University of Southern California &copy; 2025
+    </div>
+</body>
+
+</html>
