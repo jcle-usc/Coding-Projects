@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=towersOfHanoi
+comment1.params=n
+comment1.target=towersOfHanoi(int)
+comment2.params=n\ from\ to\ spare
+comment2.target=void\ towersOfHanoiGame(int,\ int,\ int,\ int)
+comment3.params=from\ to
+comment3.target=void\ moveOne(int,\ int)
+numComments=4

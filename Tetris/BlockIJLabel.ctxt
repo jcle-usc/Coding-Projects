@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BlockIJLabel
+comment1.params=block\ tetris
+comment1.target=BlockIJLabel(javax.swing.JLabel,\ javax.swing.JPanel)
+comment2.params=
+comment2.target=void\ fall()
+comment3.params=
+comment3.target=void\ rotate()
+comment4.params=
+comment4.target=void\ updateRowLocation()
+numComments=5

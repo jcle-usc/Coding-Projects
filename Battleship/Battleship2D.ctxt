@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Battleship2D
+comment1.params=
+comment1.target=Battleship2D()
+comment2.params=
+comment2.target=void\ setShips()
+comment3.params=
+comment3.target=boolean\ shipOverlap()
+comment4.params=rowGuess\ columnGuess
+comment4.target=void\ guess(int,\ int)
+comment5.params=
+comment5.target=void\ shipSink()
+comment6.params=
+comment6.target=boolean\ gridIsClear()
+numComments=7

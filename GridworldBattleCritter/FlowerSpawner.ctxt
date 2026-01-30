@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FlowerSpawner
+comment1.params=
+comment1.target=FlowerSpawner()
+comment2.params=initialColor
+comment2.target=FlowerSpawner(java.awt.Color)
+comment3.params=
+comment3.target=void\ act()
+numComments=4
