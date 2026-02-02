@@ -8,7 +8,7 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Playfair Display", "Times New Roman", serif;
             background-color: #f5f5f5;
             margin: 0;
             padding: 40px;
@@ -17,11 +17,17 @@
 
         h1 {
             margin-bottom: 10px;
+            font-size: 3rem;
+            letter-spacing: 0.03em;
         }
 
         p {
             color: #555;
             margin-bottom: 40px;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            opacity: 0.7;
         }
 
         .projects {
@@ -37,6 +43,12 @@
             width: 260px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
         }
 
         .card h2 {
@@ -55,6 +67,8 @@
 
         .card a:hover {
             background-color: #0056b3;
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 102, 255, 0.4);
         }
     </style>
 </head>
